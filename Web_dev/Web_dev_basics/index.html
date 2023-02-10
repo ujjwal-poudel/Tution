@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ujjwal Poudel - Portfolio</title>
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <!-- Header starts -->
+    <header class="header">
+      <div class="header__navbar container" x-data="{isOpen: false}">
+        <div class="header__logo manrope">
+          <div>krish<span class="header__logo--color">4alex</span></div>
+          <button @click="isOpen= !isOpen" class="header__menuburger">
+            <iconify-icon icon="ci:hamburger"></iconify-icon>
+          </button>
+        </div>
+
+        <nav>
+          <ul :class="isOpen ? 'header__links' : 'header__links header__navcollapse'">
+            <li class="header__link header__link--active">
+              <a href="#"> Home </a>
+            </li>
+
+            <li class="header__link">
+              <a href="#"> About </a>
+            </li>
+
+            <li class="header__link">
+              <a href="#"> Services </a>
+            </li>
+
+            <li class="header__link">
+              <a href="#"> Skills </a>
+            </li>
+
+            <li class="header__link">
+              <a href="#"> Blog </a>
+            </li>
+
+            <li class="header__link">
+              <a href="#"> Contact </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Header ends -->
+
+    <!-- Call-to-action starts -->
+    <div class="call-to-action__intro container">
+      <div class="call-to-action__name">
+        <div>Krish<span class="header__logo--color">4alex</span></div>
+      </div>
+
+      <div class="call-to-action__menu">
+        <p>job title</p>
+        <p>job description</p>
+      </div>
+
+      <div class="call-to-action__messagelink">
+        <p>
+          <a href="https://www.linkedin.com/in/ujjwal-poudel-30ab1725b/">
+            Send message
+          </a>
+        </p>
+      </div>
+    </div>
+    <!-- Call-to-action starts -->
+
+
+    <!-- Scripts starts -->
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script defer
+      src="https://code.iconify.design/iconify-icon/1.0.3/iconify-icon.min.js"></script>
+    <!-- Scripts ends -->
+  </body>
+</html>

@@ -1,0 +1,21 @@
+
+.header__links {
+    list-style: none;
+    display: flex;
+}
+
+.call-to-action__intro {
+    justify-content: left;
+}
+
+.call-to-action__image {
+    align-items: right;
+}
+
+.header__link {
+    /* list-style: none; */
+}
+
+.header__link--active {}
+
+.header__link>a {}

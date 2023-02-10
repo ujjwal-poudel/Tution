@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap');
+
+html,
+body {
+  font-family: "DM Sans", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Common CSS Styles Starts */
+.container {
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.manrope {
+  font-family: "Manrope", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Common CSS Styles Ends */
+
+/* Header starts */
+.header__logo {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+  font-family: "Manrope", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 42px;
+}
+
+.header__logo--color {
+  color: #FF0000;
+}
+
+.header__menuburger {
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  border: 1px solid #000000;
+  background-color: transparent;
+}
+
+.header__links {
+  padding: 0;
+}
+
+.header__link {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  list-style: none;
+  text-align: center;
+  min-width: 36px;
+  margin-bottom: 4px;
+}
+
+.header__link>a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.header__link:hover>a::after,
+.header__link--active>a::after {
+  content: ' ';
+  display: block;
+  width: 36px;
+  margin: 0 auto;
+  border-bottom: 2px solid #000000;
+}
+
+.header__navcollapse {
+  display: none;
+  visibility: hidden;
+}
+/* Header ends */
+
+/* call-to-action starts */
+.call-to-action {}
+
+.call-to-action__name {
+  position: absolute;
+  width: 284px;
+  height: 76px;
+  left: 120px;
+  top: 208px;
+
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 55.6452px;
+  line-height: 76px;
+
+  /* identical to box height */
+  text-align: center;
+}
+
+.call-to-action__menu {
+  position: absolute;
+  width: 189px;
+  height: 22px;
+  left: 217px;
+  top: 298px;
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+/* call-to-action starts */
+
+
+
+
+@media (min-width: 576px) {
+  .container {
+    --width: 576px;
+    max-width: calc(var(--width) - 32px);
+  }
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    --width: 768px;
+  }
+
+  .header__menuburger {
+    display: none;
+    visibility: hidden;
+  }
+
+  .header__navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header__navcollapse {
+    display: block;
+    visibility: visible;
+  }
+
+  .header__links {
+    display: flex;
+    margin-top: 46px;
+  }
+
+  .header__link {
+    margin: 0 16px;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .container {
+    --width: 992px;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .container {
+    --width: 1200px;
+  }
+}
+
+
+@media (min-width: 1400px) {
+  .container {
+    --width: 1400px;
+  }
+}
