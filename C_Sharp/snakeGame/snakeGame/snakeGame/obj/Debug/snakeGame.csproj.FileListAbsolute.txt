@@ -1,0 +1,10 @@
+C:\Users\ujjwa\OneDrive\Documents\Tuition\C_Sharp\snakeGame\snakeGame\snakeGame\bin\Debug\snakeGame.exe.config
+C:\Users\ujjwa\OneDrive\Documents\Tuition\C_Sharp\snakeGame\snakeGame\snakeGame\bin\Debug\snakeGame.exe
+C:\Users\ujjwa\OneDrive\Documents\Tuition\C_Sharp\snakeGame\snakeGame\snakeGame\bin\Debug\snakeGame.pdb
+C:\Users\ujjwa\OneDrive\Documents\Tuition\C_Sharp\snakeGame\snakeGame\snakeGame\obj\Debug\snakeGame.csproj.AssemblyReference.cache
+C:\Users\ujjwa\OneDrive\Documents\Tuition\C_Sharp\snakeGame\snakeGame\snakeGame\obj\Debug\snakeGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\ujjwa\OneDrive\Documents\Tuition\C_Sharp\snakeGame\snakeGame\snakeGame\obj\Debug\snakeGame.Form1.resources
+C:\Users\ujjwa\OneDrive\Documents\Tuition\C_Sharp\snakeGame\snakeGame\snakeGame\obj\Debug\snakeGame.csproj.GenerateResource.cache
+C:\Users\ujjwa\OneDrive\Documents\Tuition\C_Sharp\snakeGame\snakeGame\snakeGame\obj\Debug\snakeGame.csproj.CoreCompileInputs.cache
+C:\Users\ujjwa\OneDrive\Documents\Tuition\C_Sharp\snakeGame\snakeGame\snakeGame\obj\Debug\snakeGame.exe
+C:\Users\ujjwa\OneDrive\Documents\Tuition\C_Sharp\snakeGame\snakeGame\snakeGame\obj\Debug\snakeGame.pdb

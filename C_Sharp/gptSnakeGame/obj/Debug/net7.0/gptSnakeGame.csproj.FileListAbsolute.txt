@@ -1,0 +1,15 @@
+C:\Users\ujjwa\OneDrive\Documents\Tuition\C_Sharp\gptSnakeGame\bin\Debug\net7.0\gptSnakeGame.exe
+C:\Users\ujjwa\OneDrive\Documents\Tuition\C_Sharp\gptSnakeGame\bin\Debug\net7.0\gptSnakeGame.deps.json
+C:\Users\ujjwa\OneDrive\Documents\Tuition\C_Sharp\gptSnakeGame\bin\Debug\net7.0\gptSnakeGame.runtimeconfig.json
+C:\Users\ujjwa\OneDrive\Documents\Tuition\C_Sharp\gptSnakeGame\bin\Debug\net7.0\gptSnakeGame.dll
+C:\Users\ujjwa\OneDrive\Documents\Tuition\C_Sharp\gptSnakeGame\bin\Debug\net7.0\gptSnakeGame.pdb
+C:\Users\ujjwa\OneDrive\Documents\Tuition\C_Sharp\gptSnakeGame\obj\Debug\net7.0\gptSnakeGame.csproj.AssemblyReference.cache
+C:\Users\ujjwa\OneDrive\Documents\Tuition\C_Sharp\gptSnakeGame\obj\Debug\net7.0\gptSnakeGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ujjwa\OneDrive\Documents\Tuition\C_Sharp\gptSnakeGame\obj\Debug\net7.0\gptSnakeGame.AssemblyInfoInputs.cache
+C:\Users\ujjwa\OneDrive\Documents\Tuition\C_Sharp\gptSnakeGame\obj\Debug\net7.0\gptSnakeGame.AssemblyInfo.cs
+C:\Users\ujjwa\OneDrive\Documents\Tuition\C_Sharp\gptSnakeGame\obj\Debug\net7.0\gptSnakeGame.csproj.CoreCompileInputs.cache
+C:\Users\ujjwa\OneDrive\Documents\Tuition\C_Sharp\gptSnakeGame\obj\Debug\net7.0\gptSnakeGame.dll
+C:\Users\ujjwa\OneDrive\Documents\Tuition\C_Sharp\gptSnakeGame\obj\Debug\net7.0\refint\gptSnakeGame.dll
+C:\Users\ujjwa\OneDrive\Documents\Tuition\C_Sharp\gptSnakeGame\obj\Debug\net7.0\gptSnakeGame.pdb
+C:\Users\ujjwa\OneDrive\Documents\Tuition\C_Sharp\gptSnakeGame\obj\Debug\net7.0\gptSnakeGame.genruntimeconfig.cache
+C:\Users\ujjwa\OneDrive\Documents\Tuition\C_Sharp\gptSnakeGame\obj\Debug\net7.0\ref\gptSnakeGame.dll
