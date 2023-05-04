@@ -78,41 +78,108 @@ body {
 /* call-to-action starts */
 .call-to-action {}
 
-.call-to-action__name {
-  position: absolute;
-  width: 284px;
-  height: 76px;
-  left: 120px;
-  top: 208px;
+.picture__ujjwal--one img{
+  margin: 64px 0px 0px 0px;
+  max-width: 100%;
+  object-fit: cover;
+}
 
+.call-to-action__name {
+  margin: 0px;
   font-family: 'Manrope';
   font-style: normal;
   font-weight: 800;
-  font-size: 55.6452px;
   line-height: 76px;
 
   /* identical to box height */
   text-align: center;
 }
 
-.call-to-action__menu {
-  position: absolute;
-  width: 189px;
-  height: 22px;
-  left: 217px;
-  top: 298px;
+.call-to-action__name h1 {
+  padding: 0px;
+  margin: 0px;
+}
 
+.call-to-action__menu {
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 22px;
+  text-align: center;
 }
 
+.menu__title p {
+  margin: 16px 0px;
+}
+
+.call-to-action__menu span {
+  margin: 0px;
+  font-size: 14px;
+}
+
+.call-to-action__messagelink {
+  text-align: center;
+  font-size: 16px;
+}
+
+.messagelink__btn {
+  margin: 16px 0px 0px 0px;
+  padding: 4px;
+  text-align: center; 
+  border: 2px solid #000000;
+  border-radius: 12px;
+  background-color: #000000;
+}
+
+.messagelink__btn a {
+  padding: 10px 8px;
+  font-size: 12px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.messagelink__icon {
+  margin-bottom: -1px;
+  max-width: 100%;
+  object-fit: cover;
+}
 /* call-to-action starts */
 
+/* About Starts */
+.about {
+  text-align: center;
+}
 
+.picture__ujjwal--two img {
+  margin: 24px 0px;
+  max-width: 100%;
+  object-fit: cover;
+}
 
+.about__details {
+  margin: 0px 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.details__detail {
+  border: 2px solid #000000;
+  border-radius: 8px;
+  font-size: 12px;
+  padding: 6px 8px;
+}
+
+.details__detail p {
+  margin: 4px;
+  font-size: 10px;
+}
+
+.detail-icon {
+  font-size: 24px;
+  padding: 0px 0px 8px 0px;
+}
+/* About Ends */
 
 @media (min-width: 576px) {
   .container {
@@ -120,7 +187,6 @@ body {
     max-width: calc(var(--width) - 32px);
   }
 }
-
 
 @media (min-width: 768px) {
   .container {
@@ -152,20 +218,17 @@ body {
   }
 }
 
-
 @media (min-width: 992px) {
   .container {
     --width: 992px;
   }
 }
 
-
 @media (min-width: 1200px) {
   .container {
     --width: 1200px;
   }
 }
-
 
 @media (min-width: 1400px) {
   .container {
