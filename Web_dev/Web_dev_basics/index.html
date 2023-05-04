@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ujjwal Poudel - Portfolio</title>
-    <link rel="stylesheet" href="./normalize.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
   </head>
   <body>
     <!-- Header starts -->
     <header class="header">
       <div class="header__navbar container" x-data="{isOpen: false}">
         <div class="header__logo manrope">
-          <div>krish<span class="header__logo--color">4alex</span></div>
+          <div><span class="header__logo--color">Ujjwal</span></div>
           <button @click="isOpen= !isOpen" class="header__menuburger">
             <iconify-icon icon="ci:hamburger"></iconify-icon>
           </button>
@@ -52,25 +52,123 @@
 
     <!-- Call-to-action starts -->
     <div class="call-to-action__intro container">
+      <div class="call-to-action__intro__picture">
+        <figure>
+          <picture class="picture__ujjwal--one">
+            <source media="(max-width: 767px)"
+              srcset="" width="576"
+              height="324">
+            <source media="(min-width: 768px)"
+              srcset="" width="820"
+              height="360">
+            <source media="(min-width: 1400px)"
+              srcset="" width="1500"
+              height="659">
+            <img src="" alt=""
+              width="576" height="324">
+          </picture>
+        </figure>
+      </div>
+      
       <div class="call-to-action__name">
-        <div>Krish<span class="header__logo--color">4alex</span></div>
+        <h1>Poudel <span class="header__logo--color">Ujjwal</span></h1>
       </div>
 
       <div class="call-to-action__menu">
-        <p>job title</p>
-        <p>job description</p>
+        <div class="menu__title">
+          <p>Front End Software Engineer</p>
+        </div>
+        <span>
+          I tackle challenges with a can-do attitude
+          and a relentless drive for solutions.
+        </span>
       </div>
 
       <div class="call-to-action__messagelink">
-        <p>
-          <a href="https://www.linkedin.com/in/ujjwal-poudel-30ab1725b/">
-            Send message
-          </a>
-        </p>
+        <button class="messagelink__btn">
+        <a href="https://www.linkedin.com/in/ujjwal-poudel-30ab1725b/">
+            say Hello&emsp;<iconify-icon class="messagelink__icon" icon="prime:send"></iconify-icon>
+        </a>
+        </button>
+      </div>
+
+      <div class="scroll--down">
+
       </div>
     </div>
     <!-- Call-to-action starts -->
 
+    <!-- About Starts -->
+    <section class="about container">
+      <div>
+        <h1>About me</h1>
+        <p>My Introduction</p>
+      </div>
+
+      <div class="about__picture">
+        <figure class="picture__ujjwal--two">
+          <picture>
+            <source media="(max-width: 767px)"
+              srcset="" width="576"
+              height="324">
+            <source media="(min-width: 768px)"
+              srcset="" width="820"
+              height="360">
+            <source media="(min-width: 1400px)"
+              srcset="" width="1500"
+              height="659">
+            <img src="" alt=""
+              width="576" height="324">
+          </picture>
+        </figure>
+      </div>
+
+      <div class="about__details">
+        <div class="details__detail">
+          <div class="detail__icon"><iconify-icon class="detail-icon" icon="dashicons:awards"></iconify-icon></div>
+          Experience
+          <p>1 + years</p>
+        </div>
+
+        <div class="details__detail">
+          <div class="detail__icon"><iconify-icon class="detail-icon" icon="fluent:cloud-sync-complete-16-regular"></iconify-icon></div>
+          Completed
+          <p>7 + projects</p>
+        </div>
+
+        <div class="details__detail">
+          <div class="detail__icon"><iconify-icon class="detail-icon" icon="bx:support"></iconify-icon></div>
+          Supports
+          <p>online 24/7</p>
+        </div>
+      </div>
+
+      <div class="about__description">
+        <p>As a Front-End Software Engineer and Programmer,
+          I create responsive web interfaces using front-end development,
+          software engineering, and programming skills.
+        </p>
+      </div>
+
+      <div class="call-to-action__messagelink">
+        <button class="messagelink__btn">
+        <a href="https://www.linkedin.com/in/ujjwal-poudel-30ab1725b/">
+            Resume &nbsp; <iconify-icon class="messagelink__icon" icon="ion:document-text-outline"></iconify-icon>
+        </a>
+        </button>
+      </div>
+
+      <div class="scroll--down">
+
+      </div>
+    </section>
+    <!-- About Ends -->
+
+    <!-- Skills Starts -->
+    <section class="skills container">
+      
+    </section>
+    <!-- Skills Ends -->
 
     <!-- Scripts starts -->
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
